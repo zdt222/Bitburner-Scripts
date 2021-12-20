@@ -1,0 +1,17 @@
+if (fileExists("BruteSSH.exe")) {
+  brutessh(args[0]);
+}
+if (fileExists("FTPCrack.exe")) {
+  ftpcrack(args[0]);
+}
+if (fileExists("relaySMTP.exe")) {
+  relaysmtp(args[0]);
+}
+if (fileExists("HTTPWorm.exe")) {
+  httpworm(args[0]);
+}
+if (fileExists("SQLInject.exe")) {
+  sqlinject(args[0]);
+}
+
+nuke(args[0]);
