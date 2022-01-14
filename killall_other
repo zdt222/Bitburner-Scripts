@@ -1,0 +1,10 @@
+/** @param {NS} ns **/
+export async function main(ns) {
+	const hosts = ['n00dles', 'foodnstuff', 'sigma-cosmetics', 'joesguns', 'nectar-net', 'hong-fang-tea', 'harakiri-sushi', 'neo-net', 'zer0', 'max-hardware', 'iron-gym', 'phantasy', 'silver-helix', 'omega-net', 'the-hub', 'netlink', 'rothman-uni', 'catalyst', 'summit-uni','rho-construction', 'millenium-fitness', 'aevum-police', 'alpha-ent', 'lexo-corp', 'global-pharm', 'unitalife', 'univ-energy', 'zb-institute', 'vitalife', 'titan-labs', 'solaris', 'microdyne','helios', 'omnia','omnitek', 'blade', 'fulcrumtech', 'powerhouse-fitness', 'CSEC', 'avmnite-02h', 'I.I.I.I', 'run4theh111z' ]
+for (var i=0; i<=hosts.length; i++) 					{
+	 
+	let host = hosts[i];
+ns.killall(host)
+
+}
+}
